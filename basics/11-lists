@@ -1,2 +1,2 @@
-#!/bin/b7ash
+#!/bin/bash
 ls -la ./.. /boot
