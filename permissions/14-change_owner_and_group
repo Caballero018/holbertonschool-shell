@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chgrp staff vicent
+chown -R vincent:staff .
