@@ -1,2 +1,2 @@
 #!/bin/bash
-find . / -empty | ls -empty
+find / . -size 0
