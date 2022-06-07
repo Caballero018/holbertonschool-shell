@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -i c
+tr -i 'c'
