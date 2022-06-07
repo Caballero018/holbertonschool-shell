@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -Ei '^az$' /etc/ssh/sshd_config
+grep -E -i '^az$' /etc/ssh/sshd_config
