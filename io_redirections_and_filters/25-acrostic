@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n +1 -c 1
+tail -n +1 | head -c 1
