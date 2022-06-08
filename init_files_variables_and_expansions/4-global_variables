@@ -1,2 +1,2 @@
 #!/bin/bash
-echo set | wc -l
+set | wc -l
