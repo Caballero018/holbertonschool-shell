@@ -1,2 +1,2 @@
 #!/bin/bash
-printf {"d% \n d%"$BREATH,$LOVE}
+echo $((BREATH ** LOVE ))
