@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#The first thing I do is give a value to the variable, then next to the while I say the conditions, in the do I say what I want to print and break the loop so that the message does not repeat itself.#
+i=0
+while [ $i -le 10 ]
+
+do 
+	echo "Best School"
+	(( i++ ))
+
+done
