@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+#To begin with, what is being done in this for loop is to initialize the variable called i, then it is saying where it wants us to go, which is 10. In the third part, i++ is added, which refers to i equaling the value of 10 so it increases, that's the for loop #/
 for (( i=0 ; i<10 ; i++ )) ; do printf "Best School\n" ; done
