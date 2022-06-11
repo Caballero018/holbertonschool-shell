@@ -1,14 +1,12 @@
 #!/usr/bin/env bash
-#
-#!/usr/bin/env bash
-# This script is displaying "Best School" 10 times but in 9th interation print "Hi"
+#We create a while loop in which it says to create a loop, print "Best School" and when it equals the value 9 or line 9 print "Hi" below
 i=1
 while [ $i -le 10 ]
 do
   echo "Best School"
-  if [ $i == 9 ]
+  if (( $i == 9 ))
     then
 	echo "Hi"
   fi
-  i=$((i + 1))
+  (( i++ ))
 done
