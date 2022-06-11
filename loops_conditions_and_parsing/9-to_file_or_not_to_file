@@ -1,2 +1,6 @@
 #!/usr/bin/env bash
-#
+#prints 
+for line in *
+do
+  echo "$line" | cut -d '-' -f2-
+done
