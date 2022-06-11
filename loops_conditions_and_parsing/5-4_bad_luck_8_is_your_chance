@@ -3,7 +3,6 @@
 i=1
 while [ $i -le 10 ]
 do
-	echo "Best school"
 	if [ $i == 4 ]
 	then
 		echo "bad luck"
@@ -11,6 +10,7 @@ do
 	then
 		echo "good luck"
 	else
+		echo "Best School"
 	fi
 	(( i++ ))
 done
