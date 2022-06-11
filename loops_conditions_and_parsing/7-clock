@@ -1,17 +1,16 @@
 #!/usr/bin/env bash
 #This script simulate a clock
-hours=0
-minutes=1
-
-while [ $hours -le 12 ]
+i=0
+j=1
+while [ $i -le 12 ]
 do
-echo "Hour: $hours"
-  while [ $minutes -le 59 ]
-  do
-    echo "$minutes"
-    minutes=$((minutes + 1))
-  done
+	echo "Hour: $i"
+	while [ $j -lt 60 ]
+	do
+		echo "$j"
+		(( j++ ))
+	done
+	j=1
+	(( i++ ))
 
-  hours=$((hours + 1))
-  minutes=1
 done
