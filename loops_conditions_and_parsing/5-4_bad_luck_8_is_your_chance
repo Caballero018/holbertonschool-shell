@@ -10,6 +10,7 @@ do
 	elif [ $i == 8 ]
 	then
 		echo "good luck"
+	else
 	fi
 	(( i++ ))
 done
